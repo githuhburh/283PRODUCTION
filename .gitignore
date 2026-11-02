@@ -1,0 +1,30 @@
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- 依赖与构建产物 ----
+node_modules/
+dist/
+build/
+out/
+*.log
+.env
+.env.*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ---- 临时文件 ----
+*.tmp
+*.bak
